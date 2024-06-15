@@ -19,7 +19,15 @@
     --primary-gradient: linear-gradient(to bottom, #33A8DB, #1472B7);
 }
 
-body,main {
+body,
+main {
     background-color: #000;
     color: var(--white-color);
+}
+
+.title-2 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-top: 118px;
 }

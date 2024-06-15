@@ -9,13 +9,6 @@
     justify-content: center;
 }
 
-#course-content h2 {
-    text-transform: uppercase;
-    color: var(--primary-color);
-    font-size: 2rem;
-    margin-top: 118px;
-}
-
 #course-content p {
     text-align: center;
     font-size: 1rem;
@@ -35,7 +28,7 @@
     justify-content: center;
     width: 535px;
     height: 51px;
-    margin: .5rem 0;
+    margin: 1rem 0;
     background-color: var(--grey01-color);
     border-radius: 2rem;
     border: 2px solid var(--primary-color);
@@ -51,5 +44,61 @@
 /* --------------------------------[ TRANSFORM WORLD ]----------------------------------------- */
 
 #transform-world {
-    margin-top: 500px;
+    background-image: url(/assets/images/woman-code.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 240px;
+    margin-top: 5rem;
+}
+
+#transform-world p {
+    width: 200px;
+    margin-left: 10%;
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: lowercase;
+    text-shadow: 3px 2px var(--primary-color);
+}
+
+/* --------------------------------[ PROFESSIONAL CHALLENGES ]----------------------------------------- */
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#professional-challenges h2 {
+    width: 600px;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#professional-challenges p {
+    width: 600px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* --------------------------------[ FOOTER ]----------------------------------------- */
+
+footer {
+    background-image: linear-gradient(to top, #19222d, #00000000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    }
+
+footer p a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
 }
