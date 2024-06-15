@@ -75,7 +75,7 @@
 /* --------------------------------[ TRANSFORM WORLD ]----------------------------------------- */
 
 #transform-world {
-    background-image: url(/assets/images/woman-code.png);
+    background-image: url(./assets/images/woman-code.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
