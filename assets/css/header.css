@@ -1,7 +1,7 @@
 @import url(global.css);
 
 .banner {
-    background-image: url(/assets/images/banner.png);
+    background-image: url(../images/banner.png);
     background-color: var(--secondary-color);
 }
 
