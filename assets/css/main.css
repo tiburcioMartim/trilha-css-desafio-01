@@ -1,0 +1,7 @@
+@import url(global.css);
+
+.course-content h2{
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
