@@ -1,7 +1,55 @@
 @import url(global.css);
 
-.course-content h2{
+/* --------------------------------[ COURSE CONTENT ]----------------------------------------- */
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#course-content h2 {
     text-transform: uppercase;
     color: var(--primary-color);
     font-size: 2rem;
+    margin-top: 118px;
+}
+
+#course-content p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+    width: 780px;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.module {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 535px;
+    height: 51px;
+    margin: .5rem 0;
+    background-color: var(--grey01-color);
+    border-radius: 2rem;
+    border: 2px solid var(--primary-color);
+    box-shadow: inset -2px 4px 12px 1px #000000ad;
+}
+
+.module span {
+    color: var(--primary-color);
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+/* --------------------------------[ TRANSFORM WORLD ]----------------------------------------- */
+
+#transform-world {
+    margin-top: 500px;
 }
