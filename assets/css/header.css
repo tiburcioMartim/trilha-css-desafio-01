@@ -14,7 +14,7 @@
     height: 545px;
 }
 
-.logo{
+.logo {
     width: 250px;
     height: 250px;
     margin: 3rem 0 0 0;
@@ -35,13 +35,6 @@
     color: transparent;
 }
 
-.banner-content p {
-    width: 415px;
-    margin: 0 0 0 0;
-    text-align: center;
-    color: var(--white-color);
-}
-
 .banner-content button {
     text-transform: uppercase;
     border: 2px solid var(--primary-color);
@@ -50,4 +43,21 @@
     margin: 2.25rem 0 0 0;
     padding: 1rem 2.25rem;
     font-weight: 700;
+}
+
+@media (max-width:768px) {
+    .banner-content p {
+        width: 80%;
+        margin: 0 0 0 0;
+        text-align: center;
+        color: var(--white-color);
+    }
+}
+
+@media (min-width:768.1px) {
+    .banner-content p {
+        margin: 0 0 0 0;
+        text-align: center;
+        color: var(--white-color);
+    }
 }
